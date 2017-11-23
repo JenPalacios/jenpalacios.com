@@ -1,0 +1,39 @@
+@import "backgrounds/bg-intro"
+
+.indexBackground
+  @include background($bg_intro_img, $bg_intro_color)
+
+.introInnerContainer
+  @include section()
+
+.introTextContainer
+  max-width: 70%
+  margin: 0 auto
+  min-height: 400px
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  text-align:  center
+  p
+    max-width: 450px
+
+.mainImg
+  max-width: 250px
+
+.socialContainer
+  display: flex
+
+.social
+  height: 40px
+  width: 40px
+  background-color: $black
+  border-radius: 50%
+  margin: 0 15px
+  padding: 6px
+  &:hover
+    background-color: $main
+
+.instagram
+  width: 85%
+  margin: 2px auto 0 auto

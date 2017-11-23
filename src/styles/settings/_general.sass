@@ -1,0 +1,78 @@
+*
+  box-sizing: border-box
+
+html
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+body
+  color: $black
+
+a
+  text-decoration: none
+  color: $main
+  font-weight: bold
+  border-bottom: 2px dashed $divider_color
+
+img
+  display: block
+  border-width: 0
+
+.row
+  display: flex
+  flex-wrap: wrap
+
+.column
+  flex: 1
+  padding: 0
+  margin-right: 50px
+  text-align: justify
+
+.headline h1
+  text-align: left
+  font-size: 65px
+  margin-bottom: 10px
+
+.headline p
+  text-align: left
+  margin-left: 5px
+  font-size: 28px
+  color: $main
+  font-weight: bold
+
+.justify
+  text-align: justify
+
+.textContainer
+  max-width: 70%
+  margin: 0 auto
+  min-height: 400px
+  text-align: center
+
+.icon
+  height: 50px
+  width: 50px
+  background-color: $main
+  border-radius: 50%
+  padding: 10px
+  position: absolute
+  top: -20px
+  margin: 0 auto
+  left: 0
+  right: 0
+
+.socialIcon
+  max-width: 85%
+  margin: 0 auto
+
+@media screen and (max-width: 800px)
+  .column
+    flex-basis: 100%
+    margin-right: 0
+    padding: 0
+
+  .headline h1
+    font-size: 48px
+
+  .headline p
+    font-size: 22px
