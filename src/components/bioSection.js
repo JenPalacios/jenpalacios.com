@@ -21,7 +21,7 @@ const BioSection = () => (
             <p>I am a passionate developer from Guatemala, currently living in Germany. I love spending time with my wife, travelling and anything that is tech related. I enjoy to drink coffee and rum (not necessarily together), especially if they are Guatemalan. I have a soft spot for anything related to super heroes, Legos or T-rexes. <br/>#geek🤓</p>
           </div>
           <div className={sass.column}>
-            <p>I am very fortunate to say that I have finally found a career and community that I'm super stoked to be a part of. I love what I do and hope to be able to keep on learning and growing as a professional developer.</p>
+            <p>I feel fortunate and grateful to say that I have finally found a career and community that I'm super stoked to be a part of. I love what I do and hope to be able to keep on learning and growing as a professional developer.</p>
             <p>If you are interested in my professional journey, feel free to check out my CV.</p>
           </div>
         </div>
