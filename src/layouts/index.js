@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 // styles
-import sass from '../styles/index.module.sass'
+import sass from '../styles/index.module.sass';
+import favicon from '../images/favicon_jen.ico';
 
 import './index.css';
 
@@ -25,7 +25,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'developer, programmer, front-end, back-end, javascript, react, webpack, node.js' }
       ]}
       link={[
-        {"rel": "icon", "sizes": "16x16", "href": "http://jenpalacios.com/jen_palacios_logo.png"}
+        { rel: 'icon', type: 'image/x-icon', sizes: '16x16', href: `${favicon}` }
       ]}
     />
     <div>
