@@ -3,6 +3,9 @@ Welcome to the repo of my site, which is created using Gatsby and deployed throu
 
 I used the gatsby-starter-default kit as base for this project.
 
+# Develop
+To run the application, simply run `npm run develop`
+
 # Deployment
 To not build something, simply add [skip ci] in the commit message. Otherwise a build will be triggered.
 
