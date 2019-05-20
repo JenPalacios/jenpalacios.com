@@ -3,18 +3,11 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 // styles
-import sass from '../styles/index.module.sass';
 import favicon from '../images/favicon_jen.ico';
 
-import './index.css';
+import Footer from '../components/footer';
 
-const Footer = () => (
-  <div className={sass.footer}>
-    <div className={sass.footerInner}>
-      <p>Made by Jen Palacios with <a href="https://www.gatsbyjs.org" target="_blank">Gatsby.js</a>. The cool icons come from <a href="" target="_blank">Ego icons</a> and the dope patterns from <a href="http://www.heropatterns.com/" target="_blank">Hero Patterns</a>.</p>
-    </div>
-  </div>
-);
+import './index.css';
 
 const TemplateWrapper = ({ children }) => (
   <div>
