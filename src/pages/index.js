@@ -5,13 +5,15 @@ import BioSection from '../components/bioSection'
 import ProfessionalProjectsSection from '../components/professionalProjectsSection'
 import PrivateProjectsSection from '../components/privateProjectsSection'
 
-const IndexPage = () => (
-  <div>
-    <IntroSection />
-    <BioSection />
-    <ProfessionalProjectsSection />
-    <PrivateProjectsSection />
-  </div>
-)
+const IndexPage = () => {
+  return (
+    <div>
+      <IntroSection />
+      <BioSection />
+      <ProfessionalProjectsSection />
+      <PrivateProjectsSection />
+    </div>
+  )
+}
 
 export default IndexPage
