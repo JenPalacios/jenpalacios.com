@@ -1,13 +1,10 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Hey There!
+Welcome to the repo of my site, which is created using Gatsby and deployed through Netlify.
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+I used the gatsby-starter-default kit as base for this project.
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+# Deployment
+To not build something, simply add [skip ci] in the commit message. Otherwise a build will be triggered.
 
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+# Deploy Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/800ce543-7917-47cb-b207-47db5f03de7d/deploy-status)](https://app.netlify.com/sites/preview-jenpalacioscom/deploys)
