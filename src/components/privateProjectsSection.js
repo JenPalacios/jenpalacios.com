@@ -35,8 +35,8 @@ const PrivateProjectsSection = () => (
             </div>
             <div className={sass.column}>
               <div className={sass.project}>
-                <h3>Javascript 30</h3>
-                <p>This was a course from <a href="http://www.wesbos.com" target="_blank">Wes Bos</a>, where he taught how to approach 30 different projects with just ES6. You can check out the course <a href="https://javascript30.com/" target="_blank">here</a></p>
+                <h3>This website</h3>
+                <p>I created this website in an effort to learn how React works. It's been a fun ride to learn new stuff.</p>
               </div>
             </div>
           </div>

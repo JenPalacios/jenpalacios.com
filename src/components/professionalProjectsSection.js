@@ -19,9 +19,9 @@ const ProfessionalProjectsSection = () => (
         </div>
         <div>
           <div className={sass.justify}>
-            <p>Currently, I work at a media agency. This means that all of my projects get published in different websites. Some of them last as short as a week and a few are still online. You may view a project <a href="https://www.penny.de/aktionen-unterhaltung/penny-goes-party/" target="_blank">here</a>, another one <a href="http://xn--brcraftbier-l8a.de/" target="_blank">here</a>, and one more <a href="https://www.penny.de/unsere-marken/butchers-burger/burgerschaft/" target="_blank">here</a>.
+            <p>Currently, I work as a front end developer at <a href="https://www.vodafone.de" target="_blank">Vodafone</a> . My team and I are reponsible for maintaining the online shop and building new features into it. It feels great to deliver quality experiences to our users online.
             </p>
-            <p>Some other projects I have worked on include: </p>
+            <p>Before Vodafone, I used to work in a media agency, where I was able to do different kinds of projects. Some of them are: </p>
           </div>
           <div className={sass.row}>
             <div className={sass.column}>
