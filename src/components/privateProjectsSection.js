@@ -11,7 +11,7 @@ const PrivateProjectsSection = () => (
     <div className={sass.projectsInnerContainer}>
       <div className={sass.textContainer}>
         <div className={sass.icon}>
-          <img src={lab} role="presentation"/>
+          <img src={lab} alt=""/>
         </div>
         <div className={sass.headline}>
           <h1>Code</h1>
@@ -50,11 +50,11 @@ const PrivateProjectsSection = () => (
             <div className={sass.column}>
               <div className={sass.project}>
                 <h3>Node.js Course</h3>
-                <p>I am currently following another course from <a href="http://www.wesbos.com" target="_blank">Wes Bos</a>(yes, I am a big fan), where he teaches how to create a whole application with Node.js. You can check out the course <a href="https://learnnode.com/" target="_blank">here</a></p>
+                <p>I am currently following another course from <a href="http://www.wesbos.com" target="_blank" rel="noopener noreferrer">Wes Bos</a>(yes, I am a big fan), where he teaches how to create a whole application with Node.js. You can check out the course <a href="https://learnnode.com/" target="_blank" rel="noopener noreferrer">here</a></p>
               </div>
             </div>
           </div>
-          <a href="https://github.com/JenPalacios" target="blank" className={sass.button}>View GitHub --></a>
+          <a href="https://github.com/JenPalacios" target="blank" rel="noopener noreferrer" className={sass.button}>View GitHub --></a>
         </div>
       </div>
     </div>

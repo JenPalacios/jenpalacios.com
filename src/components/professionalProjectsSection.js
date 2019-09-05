@@ -19,7 +19,7 @@ const ProfessionalProjectsSection = () => (
         </div>
         <div>
           <div className={sass.justify}>
-            <p>Currently, I work as a front end developer at <a href="https://www.vodafone.de" target="_blank">Vodafone</a> . My team and I are reponsible for maintaining the online shop and building new features into it. It feels great to deliver quality experiences to our users online.
+            <p>Currently, I work as a front end developer at <a href="https://www.vodafone.de" target="_blank" rel="noopener noreferrer">Vodafone</a> . My team and I are reponsible for maintaining the online shop and building new features into it. It feels great to deliver quality experiences to our users online.
             </p>
             <p>Before Vodafone, I used to work in a media agency, where I was able to do different kinds of projects. Some of them are: </p>
           </div>
@@ -33,7 +33,7 @@ const ProfessionalProjectsSection = () => (
             <div className={sass.column}>
               <div className={sass.project}>
                 <h3>Website Relaunch</h3>
-                <p>I was part of a team of developers that worked on the relaunch of <a href="https://www.parasol-island.com/" target="_blank">Parasol Island's website</a>. Some of my contributions: page transitions, animations and the <a href="https://www.parasol-island.com/studio/#jobs" target="_blank">jobs listings page</a>.</p>
+                <p>I was part of a team of developers that worked on the relaunch of <a href="https://www.parasol-island.com/" target="_blank" rel="noopener noreferrer">Parasol Island's website</a>. Some of my contributions: page transitions, animations and the <a href="https://www.parasol-island.com/studio/#jobs" target="_blank" rel="noopener noreferrer">jobs listings page</a>.</p>
               </div>
             </div>
           </div>

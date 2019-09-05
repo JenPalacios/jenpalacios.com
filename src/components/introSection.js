@@ -19,13 +19,13 @@ const IntroSection = () => (
         <IntroText />
         <div className={sass.socialContainer}>
           <div className={sass.social}>
-            <a title="Github" href="https://github.com/JenPalacios" target="_blank" alt="Github">
-              <img src={github}/>
+            <a title="Github" href="https://github.com/JenPalacios" target="_blank" rel="noopener noreferrer" alt="Github">
+              <img src={github} alt=""/>
             </a>
           </div>
           <div className={sass.social}>
-            <a title="LinkedIn" href="https://www.linkedin.com/in/palaciosjennifer/" target="_blank" alt="LinkedIn">
-              <img className={sass.socialIcon} src={linkedIn}/>
+            <a title="LinkedIn" href="https://www.linkedin.com/in/palaciosjennifer/" target="_blank" rel="noopener noreferrer" alt="LinkedIn">
+              <img className={sass.socialIcon} src={linkedIn} alt=""/>
             </a>
           </div>
         </div>
