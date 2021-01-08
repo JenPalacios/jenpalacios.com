@@ -4,6 +4,7 @@ import IntroSection from '../components/introSection'
 import BioSection from '../components/bioSection'
 import ProfessionalProjectsSection from '../components/professionalProjectsSection'
 import PrivateProjectsSection from '../components/privateProjectsSection'
+import Footer from '../components/footer'
 
 const IndexPage = () => {
   return (
@@ -12,6 +13,7 @@ const IndexPage = () => {
       <BioSection />
       <ProfessionalProjectsSection />
       <PrivateProjectsSection />
+      <Footer/>
     </div>
   )
 }
