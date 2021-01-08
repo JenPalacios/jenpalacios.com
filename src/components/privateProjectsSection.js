@@ -50,7 +50,7 @@ const PrivateProjectsSection = () => (
             <div className={sass.column}>
               <div className={sass.project}>
                 <h3>Algorithms and data structures Course</h3>
-                <p>I am currently doing a course called Javascript Algorithms and Data Structurs on Udemy in order to improve my problem solving skills.</p>
+                <p>I am currently doing a course called Javascript Algorithms and Data Structures on Udemy in order to further enhance my problem solving skills.</p>
               </div>
             </div>
           </div>
