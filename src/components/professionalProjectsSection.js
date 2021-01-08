@@ -30,7 +30,7 @@ const ProfessionalProjectsSection = () => (
               <div className={sass.project}>
                 <h3>Deconstruct a monolithic architecture</h3>
                 <p className={sass.label}>@ Vodafone</p>
-                <p>I was part of the core team that drove an initiative to reduce complexity of the monolithic architecture at Vodafone by migrating to a microfrontend architecture. Our first microfrontent launch reduced pagespeed by 41% and increased conversion rate by 10%.</p>
+                <p>I was part of the core team that drove an initiative to reduce complexity of the monolithic architecture at Vodafone by migrating to a microfrontend architecture. Our first microfrontent launch increased pagespeed by 41%, reduced the average response time from backend by over 90%, and increased conversion rate by 10%.</p>
               </div>
             </div>
             <div className={sass.column}>
