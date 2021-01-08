@@ -36,7 +36,7 @@ const PrivateProjectsSection = () => (
             <div className={sass.column}>
               <div className={sass.project}>
                 <h3>This website</h3>
-                <p>I created this website in an effort to learn how React works. It's been a fun ride to learn new stuff.</p>
+                <p>I created this website in an effort to learn how React, Gatsby, and Netlify works. It's been a fun ride to learn new stuff.</p>
               </div>
             </div>
           </div>
@@ -49,8 +49,8 @@ const PrivateProjectsSection = () => (
             </div>
             <div className={sass.column}>
               <div className={sass.project}>
-                <h3>Node.js Course</h3>
-                <p>I am currently following another course from <a href="http://www.wesbos.com" target="_blank" rel="noopener noreferrer">Wes Bos</a>(yes, I am a big fan), where he teaches how to create a whole application with Node.js. You can check out the course <a href="https://learnnode.com/" target="_blank" rel="noopener noreferrer">here</a></p>
+                <h3>Algorithms and data structures Course</h3>
+                <p>I am currently doing a course called Javascript Algorithms and Data Structurs on Udemy in order to improve my problem solving skills.</p>
               </div>
             </div>
           </div>
