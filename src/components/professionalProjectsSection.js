@@ -22,7 +22,7 @@ const ProfessionalProjectsSection = () => (
             <p>Currently, I work as an app frontend developer at <a href="https://grid.app/" target="_blank" rel="noopener noreferrer">GRID</a>. My team and I are reponsible for maintaining the iOS and Android apps and building new features into it. 
             </p>
             <p>Before GRID, I used to work as a frontend developer at <a href="https://vodafone.de/" target="_blank" rel="noopener noreferrer">Vodafone</a>, the biggest telecommunications company in Europe, where my team and I were in charge of maintaining and developing new features for the online shop.</p>  
-            <p>Before Vodafone, I used to work at a media agency called <a href="https://parasol-island.com/" target="_blank" rel="noopener noreferrer">Parasol Island</a>, where I was able to do different kinds of projects.</p>
+            <p>Before Vodafone, I used to work at a media agency called <a href="https://parasol-island.com/" target="_blank" rel="noopener noreferrer">Parasol Island</a>, where I was able to code various projects for mulitple clients in the consumer goods industry.</p>
             <p>Some of the projects I have been a part of during my professional journey as a developer are:</p>
           </div>
           <div className={sass.row}>
@@ -30,14 +30,14 @@ const ProfessionalProjectsSection = () => (
               <div className={sass.project}>
                 <h3>Deconstruct a monolithic architecture</h3>
                 <p className={sass.label}>@ Vodafone</p>
-                <p>I was part of the core team that drove an initiative to reduce complexity of the monolithic architecture at Vodafone by migrating to a microfrontend architecture. Our first microfrontent launch increased pagespeed by 41%, reduced the average response time from backend by over 90%, and increased conversion rate by 10%.</p>
+                <p>I was part of the core team that drove an initiative to reduce complexity of the monolithic architecture at Vodafone by migrating to a microfrontend architecture. Our first microfrontend launch increased page speed by 41%, reduced the average response time from backend by over 90%, and increased conversion rate by 10%.</p>
               </div>
             </div>
             <div className={sass.column}>
               <div className={sass.project}>
                 <h3>Drive project to implement code reviews</h3>
                 <p className={sass.label}>@ Vodafone</p>
-                <p>In an effort to increase code quality at Vodafone, I drove an initiative which resulted in every team implementing a proper code review process before merging code. This process aimed to provide an environment where developers felt comfortable in providing and receiving constructing feedback regarding their work.</p>
+                <p>In an effort to increase code quality at Vodafone, I drove an initiative which resulted in every team implementing a proper code review process before merging code. This process aimed to provide an environment where developers felt comfortable in providing and receiving constructive feedback regarding their work.</p>
               </div>
             </div>
           </div>
@@ -46,14 +46,14 @@ const ProfessionalProjectsSection = () => (
               <div className={sass.project}>
                 <h3>Start event called Drink.pop()</h3>
                 <p className={sass.label}>@ Vodafone</p>
-                <p>In an effort to increase knowledge among developers, I started an event called Drink.pop(). This event would take place in the afternoon and developers were invited to grab a drink and listen to each other's experiences. In this event developers had the floor to share their learnings, most loved tools, and general concepts with others.</p>
+                <p>In an effort to increase knowledge among developers, I started an event called Drink.pop(). This event took place bi-weekly in the afternoon and developers were invited to grab a drink and listen to each other's experiences. Developers had the floor to share their learnings, most loved tools, and general development concepts with each other.</p>
               </div>
             </div>
             <div className={sass.column}>
               <div className={sass.project}>
                 <h3>Develop Online Contests</h3>
                 <p className={sass.label}>@ Parasol Island (media agency)</p>
-                <p>Coded both the front and backend of multiple online contests (Gewinnspiele in German) for clients. These projects required correct processing of registration forms, data management and logic for randomly winning prizes.</p>
+                <p>I coded both the front and backend of multiple online contests (Gewinnspiele in German) for clients. These projects required correct processing of registration forms, data management and logic for randomly winning prizes.</p>
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@ const ProfessionalProjectsSection = () => (
               <div className={sass.project}>
                 <h3>Develop Custom Instagram Selector</h3>
                 <p className={sass.label}>@ Parasol Island (media agency)</p>
-                <p>I built a custom backend for a wordpress site to allow clients or project managers to select the Instagram pictures that could be shown on the frontend of their websites.</p>
+                <p>I built a custom backend for a wordpress site to allow clients or project managers to select the Instagram pictures from their account that should be shown on the frontend of their websites.</p>
               </div>
             </div>
           </div>
