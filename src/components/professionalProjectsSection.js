@@ -19,49 +19,57 @@ const ProfessionalProjectsSection = () => (
         </div>
         <div>
           <div className={sass.justify}>
-            <p>Currently, I work as a front end developer at <a href="https://www.vodafone.de" target="_blank" rel="noopener noreferrer">Vodafone</a> . My team and I are reponsible for maintaining the online shop and building new features into it. It feels great to deliver quality experiences to our users online.
+            <p>Currently, I work as an app frontend developer at <a href="https://grid.app/" target="_blank" rel="noopener noreferrer">GRID</a>. My team and I are reponsible for maintaining the iOS and Android apps and building new features into it. 
             </p>
-            <p>Before Vodafone, I used to work in a media agency, where I was able to do different kinds of projects. Some of them are: </p>
+            <p>Before GRID, I used to work as a frontend developer at <a href="https://vodafone.de/" target="_blank" rel="noopener noreferrer">Vodafone</a>, the biggest telecommunications company in Europe, where my team and I were in charge of maintaining and developing new features for the online shop.</p>  
+            <p>Before Vodafone, I used to work at a media agency called <a href="https://parasol-island.com/" target="_blank" rel="noopener noreferrer">Parasol Island</a>, where I was able to do different kinds of projects.</p>
+            <p>Some of the projects I have been a part of during my professional journey as a developer are:</p>
           </div>
           <div className={sass.row}>
-            <div className={sass.column}>
+          <div className={sass.column}>
               <div className={sass.project}>
-                <h3>Chrome Extension</h3>
-                <p>Create a Chrome extension to make internal calls. This allowed an employee to click on a number and their telephone number would start dialing.</p>
+                <h3>Deconstruct a monolithic architecture</h3>
+                <p className={sass.label}>@ Vodafone</p>
+                <p>I was part of the core team that drove an initiative to reduce complexity of the monolithic architecture at Vodafone by migrating to a microfrontend architecture. Our first microfrontent launch reduced pagespeed by 41% and increased conversion rate by 10%.</p>
               </div>
             </div>
             <div className={sass.column}>
               <div className={sass.project}>
-                <h3>Website Relaunch</h3>
-                <p>I was part of a team of developers that worked on the relaunch of <a href="https://www.parasol-island.com/" target="_blank" rel="noopener noreferrer">Parasol Island's website</a>. Some of my contributions: page transitions, animations and the <a href="https://www.parasol-island.com/studio/#jobs" target="_blank" rel="noopener noreferrer">jobs listings page</a>.</p>
-              </div>
-            </div>
-          </div>
-          <div className={sass.row}>
-            <div className={sass.column}>
-              <div className={sass.project}>
-                <h3>Online Contests</h3>
-                <p>I have coded multiple online contests (Gewinnspiele). These projects have required registration forms, DOI’s, logic for winning and data management.</p>
-              </div>
-            </div>
-            <div className={sass.column}>
-              <div className={sass.project}>
-                <h3>MJML Templates</h3>
-                <p>Create mjml templates so project managers can create newsletters easily.</p>
+                <h3>Drive project to implement code reviews</h3>
+                <p className={sass.label}>@ Vodafone</p>
+                <p>In an effort to increase code quality at Vodafone, I drove an initiative which resulted in every team implementing a proper code review process before merging code. This process aimed to provide an environment where developers felt comfortable in providing and receiving constructing feedback regarding their work.</p>
               </div>
             </div>
           </div>
           <div className={sass.row}>
             <div className={sass.column}>
               <div className={sass.project}>
-                <h3>Custom Instagram Selector</h3>
-                <p>I built a custom backend to allow clients or project managers to select the Instagram pictures that could be shown on the frontend of applications.</p>
+                <h3>Start event called Drink.pop()</h3>
+                <p className={sass.label}>@ Vodafone</p>
+                <p>In an effort to increase knowledge among developers, I started an event called Drink.pop(). This event would take place in the afternoon and developers were invited to grab a drink and listen to each other's experiences. In this event developers had the floor to share their learnings, most loved tools, and general concepts with others.</p>
               </div>
             </div>
             <div className={sass.column}>
               <div className={sass.project}>
-                <h3>Devkit for Recurring Projects</h3>
-                <p>I created a repository where developers, myself included, could pull code-snippets to facilitate the process of coding new projects from recurring clients.</p>
+                <h3>Develop Online Contests</h3>
+                <p className={sass.label}>@ Parasol Island (media agency)</p>
+                <p>Coded both the front and backend of multiple online contests (Gewinnspiele in German) for clients. These projects required correct processing of registration forms, data management and logic for randomly winning prizes.</p>
+              </div>
+            </div>
+          </div>
+          <div className={sass.row}>
+            <div className={sass.column}>
+              <div className={sass.project}>
+                <h3>Develop Chrome Extension</h3>
+                <p className={sass.label}>@ Parasol Island (media agency)</p>
+                <p>I created a Chrome extension for employees to make internal calls. This allowed an employee to click on a number and their physical telephone would start dialing their colleagues phone number.</p>
+              </div>
+            </div>
+            <div className={sass.column}>
+              <div className={sass.project}>
+                <h3>Develop Custom Instagram Selector</h3>
+                <p className={sass.label}>@ Parasol Island (media agency)</p>
+                <p>I built a custom backend for a wordpress site to allow clients or project managers to select the Instagram pictures that could be shown on the frontend of their websites.</p>
               </div>
             </div>
           </div>
